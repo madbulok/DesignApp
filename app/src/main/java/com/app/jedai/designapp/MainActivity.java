@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         main.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent start = new Intent(getApplicationContext(), TwoActivity.class);
+                Intent start = new Intent(MainActivity.this, TwoActivity.class);
                 startActivity(start);
                 /*это какая то хуета которая анимириует*/
                 overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_left);
