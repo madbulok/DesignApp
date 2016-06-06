@@ -29,8 +29,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent start = new Intent(MainActivity.this, TwoActivity.class);
                 startActivity(start);
-                /*это какая то хуета которая анимириует*/
-                /*dd*/
                 overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_left);
             }
         });
